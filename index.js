@@ -99,7 +99,7 @@ const updateCount = () => {
   if (tasksDone <= (33 / 100) * countOfTasks) {
     selectors.colorBar.style.backgroundColor = "#dc35468a";
     selectors.colorBar.style.width = "33%";
-  } else if (tasksDone > (33 / 100) * countOfTasks && tasksDone <= (66 / 100) * countOfTasks) {
+  } else if (tasksDone > (33 / 100) * countOfTasks && tasksDone < (66 / 100) * countOfTasks) {
     selectors.colorBar.style.backgroundColor = "#fbff008a";
     selectors.colorBar.style.width = "66%";
   } else if (tasksDone > (66 / 100) * countOfTasks) {
