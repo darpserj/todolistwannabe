@@ -1,0 +1,60 @@
+:root {
+  --success: #28a745;
+  --danger: #ffc107;
+  --error: #dc3545;
+  --primary: #11ab7a;
+  --smokeWhite: #f2f2f2;
+}
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: var(--primary);
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-wrapper {
+  background-color: aliceblue;
+  padding: 2rem;
+}
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 2rem;
+}
+form input {
+  flex-grow: 1;
+}
+
+.list-item {
+  background-color: ;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.bottom-wrapper {
+  background-color: ;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.progress-bar {
+  position: relative;
+}
+#color-bar {
+  display: block;
+  width: 100%;
+  height: 1rem;
+
+  position: absolute;
+  top: 0;
+}
